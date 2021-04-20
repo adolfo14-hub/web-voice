@@ -81,15 +81,15 @@ if(SpeechRecognition) {
         
         open("https://www.qwant.com/?q="+searchFormInput.value);
       }
-      else if(transcript.toLowerCase().trim()==="busca en 2") {
+      else if(transcript.toLowerCase().trim()==="busca en tres") {
         
         open("https://yandex.com/search/?text="+searchFormInput.value);
       }
-      else if(transcript.toLowerCase().trim()==="busca en 4") {
+      else if(transcript.toLowerCase().trim()==="busca en cuatro") {
         
         open("https://www.apple.com/us/search/"+searchFormInput.value);
       }
-      else if(transcript.toLowerCase().trim()==="busca en 5") {
+      else if(transcript.toLowerCase().trim()==="busca en cinco") {
         
         open("https://search.aol.com/aol/search;_ylt=AwrJ61WpPH5gE7UAimxoCWVH;_ylc=X1MDMTE5NzgwMzg4MARfcgMyBGZyAwRmcjIDc2ItdG9wLXNlYXJjaARncHJpZANGLnBBam56c1NSRzV5UVZrMDZ3NDZBBG5fcnNsdAMwBG5fc3VnZwMxMARvcmlnaW4Dc2VhcmNoLmFvbC5jb20EcG9zAzAEcHFzdHIDBHBxc3RybAMwBHFzdHJsAzQEcXVlcnkDaG9sYQR0X3N0bXADMTYxODg5MTQyNA--?q="+searchFormInput.value);
       }
